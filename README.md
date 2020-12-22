@@ -33,3 +33,6 @@ Maintain the directory structure of the project. Here filepath refers to filepat
   ```$ german_wiki_module.get_readability_score(article_name)```
 * get number of pageviews of an article<br>
   ```$ german_wiki_module.get_number_of_pageviews(article_name)```
+ 
+## Results
+* Graphs and tables : https://drive.google.com/drive/folders/1816z0nwi29fhXYU57kjaidCR6XavAh9l?usp=sharing
