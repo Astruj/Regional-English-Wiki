@@ -20,7 +20,7 @@ pip install matplotlib<br>
 ## Sample function usage in the project:
 Maintain the directory structure of the project. Here filepath refers to filepath of extracted wiki dumps.
 * import the respective language module<br>
-  import german_wiki_module
+  ```$ import german_wiki_module```
 * parse the dump<br>
   german_wiki_module.parse_dump(filepath)
 * get number of revisions for an article<br>
