@@ -22,14 +22,14 @@ Maintain the directory structure of the project. Here filepath refers to filepat
 * import the respective language module<br>
   ```$ import german_wiki_module```
 * parse the dump<br>
-  german_wiki_module.parse_dump(filepath)
+  ```$ german_wiki_module.parse_dump(filepath)```
 * get number of revisions for an article<br>
-  german_wiki_module.get_number_of_revisions(article_name, filepath)
+  ```$ german_wiki_module.get_number_of_revisions(article_name, filepath)```
 * get number of unique editors for an article<br>
-  german_wiki_module.get_number_of_unique_editors(article_name, filepath)
+  ```$ german_wiki_module.get_number_of_unique_editors(article_name, filepath)```
 * get list of all the articles present in a category<br>
-  german_wiki_module.get_all_articles_in_a_category(category_name)
+  ```$ german_wiki_module.get_all_articles_in_a_category(category_name)```
 * get readability score of an article<br>
-  german_wiki_module.get_readability_score(article_name)
+  ```$ german_wiki_module.get_readability_score(article_name)```
 * get number of pageviews of an article<br>
-  german_wiki_module.get_number_of_pageviews(article_name)
+  ```$ german_wiki_module.get_number_of_pageviews(article_name)```
