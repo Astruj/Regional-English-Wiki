@@ -54,3 +54,24 @@ with open(filename, "w+", encoding="utf-8") as f:
         readability = german_wiki_module.get_readability_score(x)
         data = [article, readability]
         writer.writerow(data)
+        
+        
+article_list = ['COVID-19-Pandemie in Deutschland',
+                'Corona-Warn-App',
+                'Christian Drosten',
+                'COVID-19 Case-Cluster-Study',
+                'Alexander S. Kekulé',
+                'COVID-19-Pandemie in Deutschland/Statistik',
+                'Bürgerschaftswahl in Hamburg 2020',
+                'Landtagswahl in Sachsen 2019',
+                'Sozialdemokratische Partei Deutschlands'
+                ]
+
+gini_dict = german_wiki_module.gini_coefficient_of_article_list(article_list,
+                                                                'dewiki-20201020-stub-meta-history.xml/dewiki-20201020-stub-meta-history.csv')
+
+filename = "de_ginni.csv"
+with open(filename, "w+", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    for k, v in gini_dict.items():
+        writer.writerow([k, v])
