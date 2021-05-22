@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "project": "hi.wikipedia",
+      "activity-level": "5..99-edits",
+      "year": "2020",
+      "month": "06",
+      "countries": [
+        {
+          "country": "IN",
+          "editors-ceil": 560
+        },
+        {
+          "country": "BD",
+          "editors-ceil": 30
+        },
+        {
+          "country": "--",
+          "editors-ceil": 20
+        },
+        {
+          "country": "AR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CA",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CH",
+          "editors-ceil": 10
+        },
+        {
+          "country": "DE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "HK",
+          "editors-ceil": 10
+        },
+        {
+          "country": "HU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "JP",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MX",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NP",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "TW",
+          "editors-ceil": 10
+        },
+        {
+          "country": "UA",
+          "editors-ceil": 10
+        },
+        {
+          "country": "US",
+          "editors-ceil": 10
+        }
+      ]
+    }
+  ]
+}

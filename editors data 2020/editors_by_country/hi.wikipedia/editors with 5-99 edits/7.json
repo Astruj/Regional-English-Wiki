@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "project": "hi.wikipedia",
+      "activity-level": "5..99-edits",
+      "year": "2020",
+      "month": "07",
+      "countries": [
+        {
+          "country": "IN",
+          "editors-ceil": 580
+        },
+        {
+          "country": "--",
+          "editors-ceil": 20
+        },
+        {
+          "country": "AT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BD",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CH",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CO",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CZ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GB",
+          "editors-ceil": 10
+        },
+        {
+          "country": "HU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NP",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "US",
+          "editors-ceil": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "project": "hi.wikipedia",
+      "activity-level": "100..-edits",
+      "year": "2020",
+      "month": "04",
+      "countries": [
+        {
+          "country": "IN",
+          "editors-ceil": 30
+        },
+        {
+          "country": "--",
+          "editors-ceil": 10
+        }
+      ]
+    }
+  ]
+}
