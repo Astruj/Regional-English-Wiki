@@ -1,0 +1,4 @@
+Used https://wikitech.wikimedia.org/wiki/Analytics/AQS/Editors_by_country to download monthly data
+as .json files
+Then used count.py to extract data into csv files.
+

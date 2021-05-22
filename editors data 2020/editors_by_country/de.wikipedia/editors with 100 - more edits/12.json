@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "project": "de.wikipedia",
+      "activity-level": "100..-edits",
+      "year": "2020",
+      "month": "12",
+      "countries": [
+        {
+          "country": "DE",
+          "editors-ceil": 1030
+        },
+        {
+          "country": "AT",
+          "editors-ceil": 90
+        },
+        {
+          "country": "CH",
+          "editors-ceil": 70
+        },
+        {
+          "country": "--",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CZ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "DK",
+          "editors-ceil": 10
+        },
+        {
+          "country": "ES",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GB",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "ID",
+          "editors-ceil": 10
+        },
+        {
+          "country": "IE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "IL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "IT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LV",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MX",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NA",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NO",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SE",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "US",
+          "editors-ceil": 10
+        }
+      ]
+    }
+  ]
+}
