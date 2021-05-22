@@ -1,0 +1,676 @@
+{
+  "items": [
+    {
+      "project": "en.wikipedia",
+      "activity-level": "5..99-edits",
+      "year": "2020",
+      "month": "06",
+      "countries": [
+        {
+          "country": "US",
+          "editors-ceil": 21430
+        },
+        {
+          "country": "GB",
+          "editors-ceil": 7950
+        },
+        {
+          "country": "IN",
+          "editors-ceil": 6060
+        },
+        {
+          "country": "CA",
+          "editors-ceil": 2980
+        },
+        {
+          "country": "AU",
+          "editors-ceil": 2530
+        },
+        {
+          "country": "DE",
+          "editors-ceil": 1330
+        },
+        {
+          "country": "PH",
+          "editors-ceil": 950
+        },
+        {
+          "country": "ID",
+          "editors-ceil": 840
+        },
+        {
+          "country": "BR",
+          "editors-ceil": 810
+        },
+        {
+          "country": "FR",
+          "editors-ceil": 810
+        },
+        {
+          "country": "IT",
+          "editors-ceil": 740
+        },
+        {
+          "country": "IE",
+          "editors-ceil": 630
+        },
+        {
+          "country": "NL",
+          "editors-ceil": 630
+        },
+        {
+          "country": "ES",
+          "editors-ceil": 550
+        },
+        {
+          "country": "SG",
+          "editors-ceil": 510
+        },
+        {
+          "country": "NZ",
+          "editors-ceil": 500
+        },
+        {
+          "country": "PL",
+          "editors-ceil": 480
+        },
+        {
+          "country": "BD",
+          "editors-ceil": 470
+        },
+        {
+          "country": "MY",
+          "editors-ceil": 470
+        },
+        {
+          "country": "ZA",
+          "editors-ceil": 420
+        },
+        {
+          "country": "HK",
+          "editors-ceil": 410
+        },
+        {
+          "country": "SE",
+          "editors-ceil": 400
+        },
+        {
+          "country": "GR",
+          "editors-ceil": 380
+        },
+        {
+          "country": "IL",
+          "editors-ceil": 360
+        },
+        {
+          "country": "JP",
+          "editors-ceil": 360
+        },
+        {
+          "country": "KR",
+          "editors-ceil": 350
+        },
+        {
+          "country": "NG",
+          "editors-ceil": 350
+        },
+        {
+          "country": "MX",
+          "editors-ceil": 280
+        },
+        {
+          "country": "BE",
+          "editors-ceil": 270
+        },
+        {
+          "country": "AR",
+          "editors-ceil": 250
+        },
+        {
+          "country": "CH",
+          "editors-ceil": 240
+        },
+        {
+          "country": "RO",
+          "editors-ceil": 240
+        },
+        {
+          "country": "DK",
+          "editors-ceil": 230
+        },
+        {
+          "country": "NO",
+          "editors-ceil": 230
+        },
+        {
+          "country": "HR",
+          "editors-ceil": 220
+        },
+        {
+          "country": "FI",
+          "editors-ceil": 210
+        },
+        {
+          "country": "RS",
+          "editors-ceil": 210
+        },
+        {
+          "country": "CL",
+          "editors-ceil": 180
+        },
+        {
+          "country": "CZ",
+          "editors-ceil": 180
+        },
+        {
+          "country": "PT",
+          "editors-ceil": 180
+        },
+        {
+          "country": "UA",
+          "editors-ceil": 180
+        },
+        {
+          "country": "TW",
+          "editors-ceil": 170
+        },
+        {
+          "country": "BG",
+          "editors-ceil": 160
+        },
+        {
+          "country": "HU",
+          "editors-ceil": 160
+        },
+        {
+          "country": "AT",
+          "editors-ceil": 150
+        },
+        {
+          "country": "--",
+          "editors-ceil": 130
+        },
+        {
+          "country": "LK",
+          "editors-ceil": 120
+        },
+        {
+          "country": "PE",
+          "editors-ceil": 120
+        },
+        {
+          "country": "KE",
+          "editors-ceil": 110
+        },
+        {
+          "country": "NP",
+          "editors-ceil": 110
+        },
+        {
+          "country": "CO",
+          "editors-ceil": 100
+        },
+        {
+          "country": "GH",
+          "editors-ceil": 90
+        },
+        {
+          "country": "LB",
+          "editors-ceil": 80
+        },
+        {
+          "country": "MA",
+          "editors-ceil": 80
+        },
+        {
+          "country": "SK",
+          "editors-ceil": 80
+        },
+        {
+          "country": "AL",
+          "editors-ceil": 70
+        },
+        {
+          "country": "BA",
+          "editors-ceil": 70
+        },
+        {
+          "country": "LT",
+          "editors-ceil": 70
+        },
+        {
+          "country": "LU",
+          "editors-ceil": 70
+        },
+        {
+          "country": "MK",
+          "editors-ceil": 70
+        },
+        {
+          "country": "DO",
+          "editors-ceil": 60
+        },
+        {
+          "country": "GE",
+          "editors-ceil": 60
+        },
+        {
+          "country": "IQ",
+          "editors-ceil": 60
+        },
+        {
+          "country": "PR",
+          "editors-ceil": 60
+        },
+        {
+          "country": "QA",
+          "editors-ceil": 60
+        },
+        {
+          "country": "SI",
+          "editors-ceil": 60
+        },
+        {
+          "country": "CY",
+          "editors-ceil": 50
+        },
+        {
+          "country": "DZ",
+          "editors-ceil": 50
+        },
+        {
+          "country": "EE",
+          "editors-ceil": 50
+        },
+        {
+          "country": "KW",
+          "editors-ceil": 50
+        },
+        {
+          "country": "UG",
+          "editors-ceil": 50
+        },
+        {
+          "country": "EC",
+          "editors-ceil": 40
+        },
+        {
+          "country": "MT",
+          "editors-ceil": 40
+        },
+        {
+          "country": "OM",
+          "editors-ceil": 40
+        },
+        {
+          "country": "AM",
+          "editors-ceil": 30
+        },
+        {
+          "country": "CR",
+          "editors-ceil": 30
+        },
+        {
+          "country": "IS",
+          "editors-ceil": 30
+        },
+        {
+          "country": "JO",
+          "editors-ceil": 30
+        },
+        {
+          "country": "KH",
+          "editors-ceil": 30
+        },
+        {
+          "country": "LV",
+          "editors-ceil": 30
+        },
+        {
+          "country": "MD",
+          "editors-ceil": 30
+        },
+        {
+          "country": "PY",
+          "editors-ceil": 30
+        },
+        {
+          "country": "TN",
+          "editors-ceil": 30
+        },
+        {
+          "country": "TZ",
+          "editors-ceil": 30
+        },
+        {
+          "country": "UY",
+          "editors-ceil": 30
+        },
+        {
+          "country": "ZW",
+          "editors-ceil": 30
+        },
+        {
+          "country": "AF",
+          "editors-ceil": 20
+        },
+        {
+          "country": "BB",
+          "editors-ceil": 20
+        },
+        {
+          "country": "BO",
+          "editors-ceil": 20
+        },
+        {
+          "country": "BW",
+          "editors-ceil": 20
+        },
+        {
+          "country": "HN",
+          "editors-ceil": 20
+        },
+        {
+          "country": "IM",
+          "editors-ceil": 20
+        },
+        {
+          "country": "JE",
+          "editors-ceil": 20
+        },
+        {
+          "country": "JM",
+          "editors-ceil": 20
+        },
+        {
+          "country": "ME",
+          "editors-ceil": 20
+        },
+        {
+          "country": "MU",
+          "editors-ceil": 20
+        },
+        {
+          "country": "MV",
+          "editors-ceil": 20
+        },
+        {
+          "country": "NA",
+          "editors-ceil": 20
+        },
+        {
+          "country": "NI",
+          "editors-ceil": 20
+        },
+        {
+          "country": "PA",
+          "editors-ceil": 20
+        },
+        {
+          "country": "PS",
+          "editors-ceil": 20
+        },
+        {
+          "country": "SV",
+          "editors-ceil": 20
+        },
+        {
+          "country": "AD",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AO",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AW",
+          "editors-ceil": 10
+        },
+        {
+          "country": "AX",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BJ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BM",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BN",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BQ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BS",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "BZ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CD",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CM",
+          "editors-ceil": 10
+        },
+        {
+          "country": "CW",
+          "editors-ceil": 10
+        },
+        {
+          "country": "DM",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FJ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "FO",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GD",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GM",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GP",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "GY",
+          "editors-ceil": 10
+        },
+        {
+          "country": "HT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "KG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "KY",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LC",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "LS",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MC",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MH",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MN",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MO",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MP",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MW",
+          "editors-ceil": 10
+        },
+        {
+          "country": "MZ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NC",
+          "editors-ceil": 10
+        },
+        {
+          "country": "NU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PF",
+          "editors-ceil": 10
+        },
+        {
+          "country": "PG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "RW",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SB",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SL",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SN",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SR",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SS",
+          "editors-ceil": 10
+        },
+        {
+          "country": "SZ",
+          "editors-ceil": 10
+        },
+        {
+          "country": "TG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "TT",
+          "editors-ceil": 10
+        },
+        {
+          "country": "VA",
+          "editors-ceil": 10
+        },
+        {
+          "country": "VC",
+          "editors-ceil": 10
+        },
+        {
+          "country": "VG",
+          "editors-ceil": 10
+        },
+        {
+          "country": "VI",
+          "editors-ceil": 10
+        },
+        {
+          "country": "VU",
+          "editors-ceil": 10
+        },
+        {
+          "country": "WS",
+          "editors-ceil": 10
+        },
+        {
+          "country": "XK",
+          "editors-ceil": 10
+        },
+        {
+          "country": "ZM",
+          "editors-ceil": 10
+        }
+      ]
+    }
+  ]
+}
