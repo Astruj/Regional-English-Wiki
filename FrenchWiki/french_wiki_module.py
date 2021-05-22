@@ -78,3 +78,47 @@ def get_number_of_pageviews(article_name):
         pageview_count += item['views']
 
     return pageview_count
+
+
+# this function returns ginni coefficient of a numpy array
+def calculate_gini(array):
+    mean_absolute_difference = np.abs(np.subtract.outer(array, array)).mean()
+    relative_mean_absolute_difference = mean_absolute_difference/np.mean(array)
+    gini_coefficient = 0.5 * relative_mean_absolute_difference
+    return gini_coefficient
+
+
+# this function calculates gini coefficient for an article based on revision distribution
+def gini_coefficient(article_name, filepath):
+    chunksize = 10 ** 6
+    authors_list = []
+    for chunk in pd.read_csv(filepath, quotechar='|', index_col=False, chunksize=chunksize):
+        chunk = chunk[chunk['page_title'] == article_name]
+        if not chunk.empty:
+            authors_list.extend(list(chunk['contributor_id']))
+
+    frequency_dict = collections.Counter(authors_list)
+    frequency_array = np.array(list(frequency_dict.values()))
+    gini = calculate_gini(frequency_array)
+    return gini
+
+
+# this function calculates gini coefficient for an article list based on revision distribution
+def gini_coefficient_of_article_list(article_list, filepath):
+    chunksize = 10 ** 6
+    dict_authors_list = {k: [] for k in article_list}
+    for chunk in pd.read_csv(filepath, quotechar='|', index_col=False, chunksize=chunksize):
+        for article in article_list:
+            new_chunk = chunk[chunk['page_title'] == article]
+            dict_authors_list[article].extend(
+                list(new_chunk['contributor_id']))
+
+    gini_dict = {}
+    for article in article_list:
+        frequency_dict = collections.Counter(dict_authors_list[article])
+        frequency_array = np.array(list(frequency_dict.values()))
+        gini = calculate_gini(frequency_array)
+        gini_dict[article] = gini
+
+    return gini_dict
+
