@@ -51,3 +51,20 @@ with open(filename, "w+", encoding="utf-8") as f:
         readability = french_wiki_module.get_readability_score(x)
         data = [article, readability]
         writer.writerow(data)
+
+article_list = ["Pandémie de Covid-19 en France",
+                "Église Porte ouverte chrétienne",
+                "Y a-t-il une erreur qu'ils n'ont pas commise ?",
+                "Élections municipales de 2020 à Paris",
+                "Élections sénatoriales françaises de 2020",
+                "Élections municipales françaises de 2020"
+                ]
+
+gini_dict = french_wiki_module.gini_coefficient_of_article_list(article_list,
+                                                                'frwiki-20191120-stub-meta-history.xml/frwiki-20191120-stub-meta-history.csv')
+
+filename = "fr_ginni.csv"
+with open(filename, "w+", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    for k, v in gini_dict.items():
+        writer.writerow([k, v])
