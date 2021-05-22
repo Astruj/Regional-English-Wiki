@@ -52,3 +52,22 @@ with open(filename, "w+", encoding="utf-8") as f:
         readability = russian_wiki_module.get_readability_score(x)
         data = [article, readability]
         writer.writerow(data)
+        
+        
+article_list = ['Распространение COVID-19 в России',
+                'Хронология распространения COVID-19 в России',
+                'Гам-КОВИД-Вак',
+                'Распространение COVID-19 в Крыму',
+                'Единый день голосования 13 сентября 2020 года',
+                'Единый день голосования 19 сентября 2021 года',
+                'Президентские выборы в России (2024)'
+                ]
+
+gini_dict = russian_wiki_module.gini_coefficient_of_article_list(article_list,
+                                                                 'ruwiki-20201020-stub-meta-history.xml/ruwiki-20201020-stub-meta-history.csv')
+
+filename = "ru_ginni.csv"
+with open(filename, "w+", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    for k, v in gini_dict.items():
+        writer.writerow([k, v])
