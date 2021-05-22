@@ -2,10 +2,10 @@
 Difference between regional and English Wikipedia
 
 ## Download wiki dumps for the below languages:<br>
-Hindi : https://dumps.wikimedia.your.org/hiwiki/20201001/<br>
-Russian : https://dumps.wikimedia.your.org/ruwiki/20201020/<br>
-German : https://dumps.wikimedia.your.org/dewiki/20201020/<br>
-French : https://dumps.wikimedia.org/frwiki/20201220/<br>
+Hindi : https://dumps.wikimedia.your.org/hiwiki/<br>
+Russian : https://dumps.wikimedia.your.org/ruwiki/<br>
+German : https://dumps.wikimedia.your.org/dewiki/<br>
+French : https://dumps.wikimedia.org/frwiki/<br>
 
 ## Install the following libraries:<br>
 pip install kdap<br>
