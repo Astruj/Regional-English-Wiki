@@ -28,3 +28,32 @@ print(hindi_wiki_module.get_readability_score(
 # get number of pageviews of an article
 print(hindi_wiki_module.get_number_of_pageviews(
     'नागरिकता (संशोधन) अधिनियम, २०१९'))
+
+article_list = ['नागरिकता संशोधन अधिनियम का विरोध',
+                'नागरिकता (संशोधन) अधिनियम, २०१९',
+                'शाहीन बाग विरोध प्रदर्शन',
+                'भारतीय राष्ट्रीय नागरिक रजिस्टर',
+                'राष्ट्रीय नागरिक रजिस्टर',
+                'पीएम केयर्स फंड',
+                'आरोग्य सेतु',
+                'भारत में कोरोनावायरस से लॉकडाउन 2020',
+                'भारत में कोरोनावायरस महामारी का आर्थिक प्रभाव',
+                'भारत में 2020 कोरोनावायरस महामारी की समयरेखा',
+                '2020 भारत में कोरोनावायरस महामारी',
+                '2020 तमिल नाडु में कोरोनावायरस महामारी',
+                '2020 उत्तर प्रदेश में कोरोनावायरस महामारी',
+                '2020 महाराष्ट्र में कोरोनावायरस महामारी',
+                '2020 पंजाब, भारत में कोरोनावायरस महामारी',
+                'नोटा (भारत)',
+                'राष्ट्रीय मतदाता दिवस',
+                'परिसीमन आयोग'
+                ]
+
+gini_dict = hindi_wiki_module.gini_coefficient_of_article_list(article_list,
+                                                               'hiwiki-20201001-pages-meta-history.xml/hiwiki-20201001-pages-meta-history.csv')
+
+filename = "hi_ginni.csv"
+with open(filename, "w+", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    for k, v in gini_dict.items():
+        writer.writerow([k, v])
